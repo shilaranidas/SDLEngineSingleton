@@ -339,5 +339,5 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 
-!/lib/*.dll
-!/lib/*.lib
+!SDL/SDL2*/lib/*.dll
+!SDL/SDL2*/lib/*.lib
